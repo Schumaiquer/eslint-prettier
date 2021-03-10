@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "types": [
+      "mocha",
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "target": "es2017",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "experimentalDecorators": true
+  },
+  "include": ["test/**/**.ts"],
+  "plugins": [
+    {
+      "name": "typescript-tslint-plugin"
+    }
+  ]
+}
